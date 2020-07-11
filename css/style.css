@@ -1,0 +1,24 @@
+
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+	cursor:pointer;
+}
+
+.dot,.dot2 {
+    fill: #ffab00;
+    stroke: #fff;
+	cursor:pointer;
+}
+
+div.tooltip {
+	position: absolute;
+	border-radius: 3px;
+	padding: 5px 10px;
+	background-color: #000;
+	color:#fff;
+	z-index: 2000;
+	font-family: Helvetica;
+	font-size: 12px;
+}
